@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1 style="color: lightseagreen;"><u> One Web Technology </u></h1>
+        <h2 style="color: lightseagreen;">Dipti Patel</h2>
+        <div class="topnav" id="myTopnav">
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <section>
+            <div class="content">
+                <h2>Lorem, ipsum.</h2>
+                <img src="/IMG/image.jpeg" style="width: 100%; height: 200px;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, sequi dolor? Animi, exercitationem esse incidunt eaque laborum recusandae, fuga deserunt minima aut excepturi ipsum consectetur ipsam sed quis obcaecati aperiam aliquam? Esse
+                    sapiente fugiat deleniti autem quae distinctio voluptatum explicabo quasi saepe soluta? Obcaecati praesentium, magnam veniam molestiae quo ut voluptas doloribus dolorem vero necessitatibus laborum nisi expedita exercitationem eius
+                    odit sunt optio reprehenderit! Corporis expedita aperiam consequatur totam minima, rerum libero ratione eveniet molestias nobis harum ullam consectetur, deserunt, laboriosam beatae possimus aliquid ipsam quae error. Corrupti autem
+                    sint natus possimus repudiandae libero eaque dolorum nesciunt. Ab, possimus quam.
+            </div>
+            <div class="submenu">
+                <h2 style="padding-left: 20px;">Menu</h2>
+                <ul>
+                    <li><a href="#">Lorem.</a></li>
+                    <li><a href="#">Impedit.</a></li>
+                    <li><a href="#">At!</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
